@@ -3,5 +3,7 @@
     background-color: #fdfdf1 !important;
     display:none!important;
 }
-.ui-header {background-color:red!important}
+button#start-chat-button {
+    background-color: red!important;
+}
 </style>
