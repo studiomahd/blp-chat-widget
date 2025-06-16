@@ -1,9 +1,38 @@
 <style tyle="text/css>"
+#five9-embedded-container iframe#embedded-frame {
+    border-radius: 1rem 1rem 0 0;
+}
+
+body .ui-mobile-viewport.ui-overlay-a {
+    background-color: #fdfdf1 !important;
+}
+
 #five9-frame-full iframe #input-container.ui-content {
     background-color: #fdfdf1 !important;
-    display:none!important;
+    font-family: Poppins, system-ui !important;
 }
+
+.five9-chat-button {
+    font-family: Poppins, system-ui !important;
+    background: #C24D0A !important;
+}
+
 button#start-chat-button {
-    background-color: red!important;
+    font-family: Poppins, system-ui !important;
+    background-color: #C24D0A !important;
+    border-radius: 20rem !important;
+    background-color: #526686 !important;
+    font-size: 1.15rem !important;
+}
+
+.form-control > label {
+    font-family: Poppins, system-ui !important;
+}
+
+#input-container.ui-content {
+    background-color: #fcfdf1;
+}
+.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
+    border-radius: .25rem!important;
 }
 </style>
